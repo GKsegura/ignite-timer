@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from "./styles";
+import { HistoryContainer, HistoryList, Status } from "./styles";
 
 export function History() {
     return (
@@ -19,31 +19,41 @@ export function History() {
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>
+                                <Status statusColor={"green"}>Concluído</Status>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>
+                                <Status statusColor={"green"}>Concluído</Status>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>
+                                <Status statusColor={"green"}>Concluído</Status>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>
+                                <Status statusColor={"yellow"}>Em andamento</Status>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
-                            <td>4</td>
+                            <td>
+                                <Status statusColor={"red"}>Interrompido</Status>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
